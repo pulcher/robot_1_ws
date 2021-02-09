@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\robot_1_ws\src\teensy_node\src\subscriber_member_twist_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\robot_1_ws\src\teensy_node\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F066D07-6EF5-3606-BB29-6F9D095DFDCE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

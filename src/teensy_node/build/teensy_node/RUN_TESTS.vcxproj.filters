@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\robot_1_ws\src\teensy_node\build\teensy_node\CMakeFiles\9ca30ef89eab5699359528a671eb56bf\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BCB0B7ED-4BBC-31EF-B64C-035C2EEA26AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
