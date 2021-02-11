@@ -17,7 +17,7 @@ class MinimalSubscriber : public rclcpp::Node
     private:
         void topic_callback(const geometry_msgs::msg::Twist::SharedPtr msg) const
         {
-            RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg->linear.x);
+            RCLCPP_INFO(this->get_logger(), "I heard: x:'%.*f' y:'%.*f'", 20, msg->linear.x, 20, msg->linear.y);
         }
         rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;
 };
